@@ -1,0 +1,23 @@
+{-
+
+  TASK 1 - Greatest common divisor
+  Write the method that calculates greater common divisor for two integers greater
+  or equal to 1 and less than 1048576.
+-}
+
+() recv_internal() {
+}
+
+;; testable
+(int) gcd(int a, int b) method_id {
+  while(a!=0){
+  int r
+  a = 1
+  b = 1048576
+  r = 1048576 % a 
+  b = a
+  a = r
+  }
+  print("  "+ b )
+}
+Footer
